@@ -146,7 +146,7 @@ The network effectively restores **fine textures** and **pore connectivity**.
 <p align="center">
 <img src="assets/Visual_Results.png" width="800">
 
-<em>4× SR results on carbonate and sandstone datasets.</em>
+<em>4× SR results on carbonate  datasets.</em>
 </p>
 
 </details>
