@@ -151,16 +151,3 @@ The network effectively restores **fine textures** and **pore connectivity**.
 
 </details>
 
-<details>
-<summary>Topological fidelity results</summary>
-
-<p align="center">
-<img src="assets/S2r_Results.png" width="800">
-
-<em>Comparison of two-point correlation functions S2(r).</em>
-</p>
-
-</details>
-
----
-
