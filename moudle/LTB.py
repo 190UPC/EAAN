@@ -170,7 +170,10 @@ class Attention_histogram(nn.Module):
         self.temperature = nn.Parameter(torch.ones(num_heads, 1, 1))
 
         self.qkv = Conv2d(dim, dim * 5, kernel_size=1, bias=bias)
-        self.qkv_dwconv = Conv2d(dim * 5, dim * 5, kernel_size=3, stride=1, padding=1, groups=dim * 5, bias=bias)
+        self.qkv_dwconv = Conv2d(dim * 5, dim * 5, 
+                          kernel_size=3, stride=1, padding=2,
+                          dilation=2,
+                          groups=dim * 5, bias=bias)
         self.project_out = Conv2d(dim, dim, kernel_size=1, bias=bias)
 
     def pad(self, x, factor):
